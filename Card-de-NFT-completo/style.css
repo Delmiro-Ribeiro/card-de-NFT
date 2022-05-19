@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: hsl(216, 50%, 16%);
+}
+
+.central .centro-img{
+    width: 195px;
+    margin: 0 auto;
+}
+.central .centro-img img{
+    width: 340px;
+    margin: 15px;
+    position: relative;
+    right: 88px;
+    border-radius: 6px;
+}
+
+.central{
+    width: 375px;
+    height: 665px;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-top: 60px;
+    background-color: hsl(215, 32%, 27%);
+    border-radius: 12px;
+    box-shadow: 0 0 1em black;
+}
+
+.central  h3{
+    color: rgb(248, 246, 246);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    text-align: left;
+    margin: 12px 0;
+}
+
+.text p{
+    font-size: 18px;
+    color:  hsl(234, 37%, 66%);
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.text{
+    width: 340px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.central .valor{
+    display: flex;
+    width: 340px;
+    padding: 10px;
+    margin: 8px auto;
+    color: hsl(215, 51%, 70%);
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.central .valor p{
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0 11px;
+}
+
+.central .valor .relogio{
+    left: 95px;
+    padding: 0;
+    padding: 3px;
+    position: relative;
+}
+
+.central .valor .imgg{
+    position: relative;
+    left: 101px;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.central .valor .ether{
+    margin-top: 3px;
+    font-weight: 600;
+    color:  hsl(178, 100%, 50%);
+}
+
+.central .valor img{
+    height: 20px;
+    margin-top: 5px;
+}
+
+.central .rodape{
+    padding: 20px;
+    width: 340px;
+    margin: 0 auto;
+    padding-top: 8px;
+    display: flex;
+    border-top: 2px solid hsl(215, 51%, 70%);
+}
+
+.central .rodape img{
+    width: 45px;
+    position: relative;
+    right: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+.central .rodape p{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color:   hsl(215, 51%, 70%);
+    margin-top: 17px;
+    font-size: 18px;
+}
+
+.central .rodape span{
+    color: #ffffff;
+    font-weight: 600;
+}
